@@ -25,7 +25,7 @@ This Project focuses on the analyzing the heterogenous features of Brazilian eco
 
 # Process Flow:
  
-<img src="https://github.com/srikarane/Brzilian-Ecommerce/blob/main/Richdataset%20formation.jpg">
+<img src="Product_recommendation_workflow.png">
 # Selected Features:
 For recommendation engine we will use all the features except the state and city feature and for predicting the sales we won’t be using the unique id ‘s  and some of the features we will be deriving such as distance from the 2 zip codes latitudes and longitudes , number of days consumed for shipment etc. For clustering technique we would be not using reviews dataset except the rating score and also not use the id’s in different data sets.
 	These features are not final selected features it may change after my 1st training. Then again we apply some feature importance algorithms or feature selection algorithms  to obtain selected features for our model, considering even the correlations among them.
